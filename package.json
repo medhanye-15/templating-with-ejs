@@ -1,25 +1,25 @@
 {
-  "name": "nodejs-server",
+  "name": "templating-with-ejs",
   "version": "1.0.0",
-  "description": "our first node.js project",
+  "description": "Import this repo to create a starting point for Node.js projects in repl.it, https://replit.com",
   "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/medhanye-15/nodejs-server.git"
+    "url": "git+https://github.com/medhanye-15/templating-with-ejs.git"
   },
-  "author": "Medhanye Weldegebriel",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/medhanye-15/nodejs-server/issues"
+    "url": "https://github.com/medhanye-15/templating-with-ejs/issues"
   },
-  "homepage": "https://github.com/medhanye-15/nodejs-server#readme",
-  "keywords": [],
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.3"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/medhanye-15/templating-with-ejs#readme"
 }
