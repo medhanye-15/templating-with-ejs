@@ -15,10 +15,14 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about-us', (req, res) => {
-  var title = 'My About Us Page';
+  var title = 'My About Us';
   res.render('pages/about-us',{'title':title});
 });
 
+app.get('/tigray-prevails', (req, res) => {
+  var title = 'My Tigray Prevails Page';
+  res.render('pages/tigray-prevails',{'title':title});
+});
 
 app.get('/users', function(req, res) {
 	var title = 'Users Page';
