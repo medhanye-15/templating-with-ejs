@@ -24,6 +24,10 @@ app.get('/tigray-prevails', (req, res) => {
   res.render('pages/tigray-prevails',{'title':title});
 });
 
+app.get('/tigray-football-club', (req, res) => {
+  var title = 'My Tigray Football Club Page';
+  res.render('pages/tigray-football-club',{'title':title});
+});
 app.get('/users', function(req, res) {
 	var title = 'Users Page';
 	res.render('users/index', {
